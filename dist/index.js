@@ -8,7 +8,10 @@ var index = {
         rule_providers: ["linting"],
         computes: [
             "no-missing-linename"
-        ]
+        ],
+        reduceValue(states) {
+            return states.reduce((acc, state) => acc.concat(state.problems), []);
+        }
     }
 };
 
