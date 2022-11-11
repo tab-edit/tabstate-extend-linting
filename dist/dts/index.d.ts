@@ -4,7 +4,7 @@ declare type LinterState = {
 };
 declare const _default: {
     RuleSource: {};
-    StatePlugin: {
+    Plugin: {
         rule_providers: string[];
         computes: string[];
         reduceValue(states: LinterState[]): any[];

@@ -4,7 +4,7 @@ const ruleMap = {
 
 var index = {
     RuleSource: ruleMap,
-    StatePlugin: {
+    Plugin: {
         rule_providers: ["linting"],
         computes: [
             "no-missing-linename"
