@@ -1,2 +1,2 @@
 # tabstate-plugin-linting
-A plugin for @tab-edit/state which implements linting of a tablature AST
+An extension for @tab-edit/state which exports a plugin for linting a tablature AST
